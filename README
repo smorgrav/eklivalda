@@ -18,6 +18,11 @@ and SeeTheStats.com to visualize them on the page.
 
 Username: seethestats@smorgrav.org
 
+DNS
+===
+I'm using Gandi with the eklivalda handle. Zone record setup with
+cname for *.eklivalda.no to the heroku target.
+
 TODO
 ====
 The migration from Play 2.1 to 2.4 and move from

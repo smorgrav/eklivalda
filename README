@@ -1,4 +1,28 @@
-This is your new Play application
-=================================
+Eklivalda
+=========
+The web page for Ekli - the big salomon fishing beat in Orkla.
 
-This file will be packaged with your application, when using `activator dist`.
+From Jan 2015 the hosting of this was moved to heroku.
+https://dashboard.heroku.com/apps/damp-woodland-9870/resources
+
+Deployment
+==========
+Heroku automatically deploys from github.
+
+    git push origin master
+
+Stats
+=====
+Ths site uses google analytics to report usage of the site
+and SeeTheStats.com to visualize them on the page.
+
+Username: seethestats@smorgrav.org
+
+TODO
+====
+The migration from Play 2.1 to 2.4 and move from
+appfog to heroku for hosteing crippled a few features:
+
+   1 Orkla flow graphing is broken
+   1 Internationalization is broken
+   1 Captions on map images is broken

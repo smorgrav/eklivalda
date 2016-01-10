@@ -1,0 +1,53 @@
+@()(implicit l: Lang, messages: Messages)
+@main("zone1") { 
+
+<script type="text/javascript">    
+	function GetMap() {
+	  Microsoft.Maps.loadModule('Microsoft.Maps.Themes.BingTheme', { callback: function() {
+		var map = loc_get_map(LOC_ZONE1_CENTER);
+      	  loc_add_zone1(map);
+          loc_add_boarder_1to2(map); 	
+      }});
+	 }
+</script>
+
+<div id="sec">
+<div id="sectionleft">
+  <h1>@Messages("zone1.welcome")</h1>
+  <h2>@Messages("zone1.welcome.byline")</h2>
+  <p>
+  @Messages("zone1.body.10")
+  <p>
+  @Messages("zone1.body.20")
+  <p>
+  @Messages("zone1.body.30")
+  <p>
+  @Html(Messages("general.booking.intro"))
+  @Messages("general.booking.name") <a href="mailto:@Messages("general.booking.email")">@Messages("general.booking.email")</a> @Messages("general.booking.phone").
+</div>
+	
+<div id="sectionright">
+    <h1>@Messages("general.movie")</h1>
+    <h2>@Messages("general.movie.byline")</h2>
+    <p>
+        <iframe src="//player.vimeo.com/video/80596189" width="480" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <p>
+</div>
+</div>
+
+<div id="sec">
+  <div id="sectionright">
+    <h1>@Messages("general.map")</h1>
+    <h2>@Messages("general.map.byline")</h2>
+    <div id='myMap' style="position:relative; width:99%; height:325px;margin-left:auto;margin-right:auto;"></div>	
+  </div>
+
+<div id="sectionleft">
+    <h1>@Messages("general.pictures")</h1>
+    <h2>@Messages("general.pictures.byline")</h2>
+ 	<iframe id='iframe' 		src='http://flickrit.com/slideshowholder.php?height=75&size=big&setId=72157636596041914&click=true&counter=true&trans=1&theme=1&thumbnails=0&transition=0&layoutType=responsive&sort=0' scrolling='no' frameborder='0' style='width:99%; height:325px'>
+	</iframe>
+</div>
+</div>
+    
+}

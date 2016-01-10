@@ -1,0 +1,32 @@
+#
+# Text für eklivalda.no verwendet
+#
+# Diese Datei enthält key=Wert-Paare auf der Website zur Unterstützung
+# Mehreren Sprachen. Zeilen, die mit "#" sind Kommentare und sollten Sie helfen
+# Finden Sie im entsprechenden Abschnitt zu ändern. In der Regel jede Zeile hat folgendes Format:
+#
+# Page.section.key=Wert
+#
+# Wenn Sie Fehler, Ungenauigkeiten oder finden wollen, um den Inhalt zu verbessern - das ist, wie Sie es tun:
+#
+# 1. Identifizieren Sie die wichtigsten Werte, die Sie ändern möchten
+# - ZB sagen wir, dass Sie auf die Webseiten byline 'title.byline' ändern wollen
+# 2. Ändern Sie den Wert - also der Teil nach dem Zeichen '='
+# - ZB so, dass die resultierende wie heißt es: ætitle.byline = Salmon Himmel'
+# 3. Teilen Sie die gesamte Datei oder nur die Zeilen, die Sie ändern möchten, um eiklivalda@smorgrav.org
+# 4. Sie werden benachrichtigt, wenn die Änderungen werden übernommen wird oder nicht (nach meiner Kontrolle) werden.
+#
+# Wenn Sie neue Sprache hinzufügen möchten - dann ändern Sie einfach alle relevanten Schlüssel-Wert- Linien und senden Sie die Datei an
+# Eklivalda@smorgrav.org mit einem zusätzlichen Hinweis auf welcher Sprache die Übersetzung geht.
+#
+# Sie können natürlich auch übersetzen Kommentare
+#
+
+#
+# Text erscheinen auf jeder Seite
+#
+lang.de=Deutsch
+
+title=Eklivalda
+title.byline=Der große Lachsfang in Orkla
+home.welcome.movieref=88771364

@@ -1,0 +1,379 @@
+/** Main layout **/
+
+html, body {
+   background-image: url(/assets/images/background3.jpg);
+   background-repeat:repeat-y;
+   font-family: Verdana, sans-serif, Helvetica, Arial;
+   font-size: 13px;
+   color:#4E443C;
+}
+
+#layout {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px; 
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px; 
+  display: block;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1000px;
+}
+
+#content {
+   padding: 5px 0px;
+}
+
+#header {
+   padding: 2px 10px 15px 10px;
+   color: white;
+   text-shadow: 2px 3px 3px #a98;
+   background-image: url(/assets/images/header_midtre.jpg);
+   /** background-position:center; **/
+   display: block;
+   border-radius: 10px 10px 0px 0px;
+   -webkit-border-radius: 10px 10px 0px 0px;
+   -moz-border-radius: 10px 10px 0px 0px;
+}
+
+#title {
+    margin-top: 5px;
+    font-size: 3.75em;
+    font-weight: bold;
+    font-family: Sans-serif, Helvetica, Arial, Sans !important;
+    letter-spacing: 10px;
+}
+
+#title h2 {
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+#byline {
+	width: 100%;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    margin-top: 60px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+#byline form {
+  display:inline;	
+}
+
+#byline form label {
+  float:left;
+}
+
+#byline form label.left {
+  width:90%;
+}
+
+#byline form label.right {
+  width:9%;
+  margin-left: 5px;
+}
+
+.left { float:left; }
+
+.right { float:right; }
+
+#message {
+  font-family: Courier, monospace;
+  font-size: 16px;
+  font-style: oblique;
+  font-stretch: ultra-expanded;
+  color: orangered;
+  margin-left: 20px;
+}
+
+/** Sections for aricles and contend in general */
+#sec {
+  display:block;
+  border:3px; 
+  clear:both;
+  padding: 5px 5px 0px 5px;
+}
+
+.center {
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+}
+
+#sectionleft {
+  width: 49%;
+  float:left;
+  /** padding: 0px 0px 0px 5px; */
+}
+
+#sectionright {
+  width: 49%;
+  float:right;
+ /**  padding: 0px 5px 0px 0px; */
+}
+
+#sec h1 {
+  display: block;
+  padding: 5px;
+  margin: 3px 0px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0A6666), to(#0A8888));
+  background: -moz-linear-gradient(top,  #0A6666,  #0A8888);
+  font-size: 140%;
+  color:#171727;
+}
+
+#sec h2 {
+  display: block;
+  margin: 0px 0px 10px 0px;
+  border-radius: 0px 0px 5px 5px;
+  -webkit-border-radius: 0px 0px 5px 5px;
+  -moz-border-radius: 0px 0px 5px 5px;
+  padding: 5px;
+  background: LightSteelBlue;
+  color:#171727;
+  font-size: 80%;
+}
+
+/** Tables */
+table {
+  width:90%;
+  border-top:1px solid #e5eff8;
+  font:normal 14px/20px Verdana,Arial,Helvetica,sans-serif;
+  border-right:1px solid #e5eff8;
+  margin:1em auto;
+  border-collapse:collapse;
+}
+
+tr td {
+  color:#678197;
+  border-bottom:1px solid #e5eff8;
+  border-left:1px solid #e5eff8;
+  padding:.3em 1em;
+  text-align:center;
+}
+
+tr.odd td {
+  background:#f7fbff
+}
+
+tr.odd .column1 {
+  background:#f4f9fe;
+}
+
+.column1 {
+  background:#f9fcfe;
+}
+
+th {
+  background:#f4f9fe;
+  text-align:center;
+  font:bold 14px/20px Verdana,Arial,Helvetica,sans-serif;
+  color:#66a3d3;
+}
+
+.menu{
+    width: 100%;
+}
+
+.menu ul{
+    padding: 6px 0 7px 0; /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
+    margin: 0;
+    text-align: right; //set value to "left", "center", or "right"*/
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    color: white;
+    padding: 5px 3px 4px 3px; /*top padding is 6px, bottom padding is 4px*/
+    margin-right: 20px; /*spacing between each menu link*/
+    text-decoration: none;
+    border-top: 3px solid #fff; /*bottom border is 3px*/
+}
+
+.menu ul li a:hover {
+    border-top-color: #999;
+}
+
+.menu ul li a.selected{
+    border-top-color: #911;
+}
+
+/** Footer **/
+
+#footer {
+    clear: both ;
+    border-top: 1px solid #45597A;
+    font-size: 70%;
+    padding: 10px 30px;
+    text-align: center;
+    color: #869AB1;
+    margin-top: 30px;
+}
+
+#footer a {
+    color: #869AB1;
+    font-weight: bold;
+}
+
+/** Post **/
+
+.post .post-title {
+    margin: 0;
+}
+
+.post .post-title a {
+    font-size: 36px;
+    color: #F5C2CC;
+    text-decoration: none;
+}
+
+.post .post-metadata {
+    color: #BAC36E;
+    display: block;
+    font-size: 70%;
+    display: inline-block;
+}
+
+.post .post-author {
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.post .post-metadata a {
+    color: #9FA85D;
+}
+
+.post .post-content {
+    position: relative;
+    background: #fff;
+    padding: 10px;
+    margin: 10px 0 50px 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-box-shadow: 0 2px 0 #BBBBBB;
+}
+
+.post .about {
+    text-indent: -999em;
+    display: block;
+    width: 0; 
+    height: 0; 
+	border-left: 10px solid transparent; 
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #fff;
+	border-top: 0;
+	position: absolute;
+	top: -6px;
+	left: 24px;
+}
+
+
+/** Older posts **/
+
+.older-posts h3 {
+    color: #869AB1;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.older-posts h3 .from {
+    font-weight: normal;
+    font-size: 70%;
+}
+
+.older-posts .post {
+    margin-bottom: 15px;
+    border-left: 3px solid #869AB1;
+    padding-left: 10px;
+}
+
+.older-posts .post-title a {
+    padding: 0;
+    color: #131921;
+    font-size: 20px;
+}
+
+.older-posts .post-metadata {
+    color: #869AB1;
+    padding: 0;
+    font-size: 12px;
+}
+
+.older-posts .post-metadata a {
+    color: #869AB1;
+}
+
+/** Comments **/
+
+.comments {
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #869AB1;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+h3 span {
+    font-size: 80%;
+    font-weight: normal;
+}
+
+.comment {
+    width: 70%;
+    clear: both;
+}
+
+.comment .comment-metadata {
+    color: #869AB1;
+    display: block;
+    font-size: 50%;
+    display: block;
+    float: left;
+    width: 80px;
+    text-align: right;
+}
+
+.comment .comment-author {
+    font-size: 150%;
+    font-weight: bold;
+    display: block;
+}
+
+.comment .comment-content {
+    position: relative;
+    background: #E4EAFF;
+    color: #242C58;
+    font-size: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    padding: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.comment .about {
+    text-indent: -999em;
+    display: block;
+    width: 0; 
+    height: 0; 
+	border-top: 10px solid transparent; 
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid #E4EAFF;
+	border-left: 0;
+	position: absolute;
+	top: 4px;
+	left: -4px;
+}

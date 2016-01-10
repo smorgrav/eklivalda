@@ -1,0 +1,26 @@
+@()(implicit l: Lang, messages: Messages)
+@main("about") {
+<div id="sec">
+        <h1>@Messages("about.lang")</h1>
+        <h2>@Messages("about.lang.byline")</h2>
+        @Messages("about.lang.intro")
+        <p>@Messages("about.lang.howto")</p>
+        <ol>
+            <li>@Messages("about.lang.howto.1")</li>
+            <li>@Messages("about.lang.howto.2")</li>
+            <li>@Messages("about.lang.howto.3") @Html(Messages("general.webmaster"))</li>
+        </ol>
+        @Messages("about.lang.available") @Messages("lang." + l.code):
+</div>
+
+<div id="sec" >
+  <h1>@Messages("about.stats")</h1>
+  <div class="center">
+    <iframe src="http://www.seethestats.com/stats/10665/Pageviews_e0e0566e5_ifr.html" style="width:700px;height:300px;border:none;" scrolling="no" frameborder="0"></iframe>
+    <iframe src="http://www.seethestats.com/stats/10665/Visitors_71a47c602_ifr.html" style="width:700px;height:300px;border:none;" scrolling="no" frameborder="0"></iframe>
+    <iframe src="http://www.seethestats.com/stats/10665/VisitsByCountry_88ae0d1f3_ifr.html" style="width:700px;height:300px;border:none;" scrolling="no" frameborder="0"></iframe>
+    <iframe src="http://www.seethestats.com/stats/10665/VisitsByOperatingSystem_739ec4995_ifr.html" style="width:700px;height:300px;border:none;" scrolling="no" frameborder="0"></iframe>
+  </div>
+</div>
+
+}

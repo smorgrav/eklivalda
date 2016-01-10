@@ -1,0 +1,91 @@
+@()(implicit l: Lang, messages: Messages)
+@main("orkla") {
+
+<script language="javascript" type="text/javascript">
+  $(function() {
+
+    var options = {
+      lines: {
+        show: true
+      },
+      points: {
+        show: false
+      },
+      xaxis: {
+        mode: "time"
+      },
+      yaxis: {
+        min: 0,
+        max: 370,
+      },
+      grid: {
+        hoverable: true
+      },
+
+      mouse: { track: true },
+
+      legend: {
+        show: true,
+        position: "ne",
+        margin: 0,
+        backgroundOpacity: 0
+       }
+    };
+
+  var data = [];
+  $.plot("#placeholder", [ data ], options);
+
+  function onDataReceived(series) {
+    $.plot("#placeholder", [ series ], options);
+  }
+
+  $.ajax({
+    url: "test",
+    dataType: "json",
+    type:"GET",
+    success: function(data){
+        onDataReceived(data)
+    },
+    error : function(e) {
+        alert(e)
+    }
+    });
+  });
+</script>
+
+<div id="sec">
+  <h1>@Messages("orkla.stats")</h1>
+  <div id="placeholder" style="height:300px;width:80%;margin-left: auto;margin-right: auto;margin-top: 20px"></div>
+  <div id="legend" style="width:80%;margin-left: auto;margin-right: auto">
+      <li>
+          <ul>middelflom = 362 m³/s - femårsflom = 448 m³/s - tiårsflom = 517 m³/s - femtiårsflom = 665 m³/s </ul>
+      </li>
+  </div>
+</div>
+
+<div id="sec">
+    <h1>@Messages("orkla.weather")</h1>
+    <h2>@Messages("orkla.weather.byline")</h2>
+    <div style="width:85%; margin:auto;">
+      <script src="http://www.yr.no/sted/Norge/Sør-Trøndelag/Orkdal/Ekli/ekstern_boks_time_for_time.js"></script><noscript><a href="http://www.yr.no/sted/Norge/Sør-Trøndelag/Orkdal/Ekli/">yr.no: Værvarsel for Ekli</a></noscript>
+    </div>
+</div>
+
+<div id="sec">
+  <div id="sectionright">
+    <h1>@Messages("orkla.resources")</h1>
+    <h2>@Messages("orkla.resources.byline")</h2>
+  </div>
+
+
+  <div id="sectionleft">
+      <h1>@Messages("orkla.tide")</h1>
+      <h2>@Messages("orkla.tide.byline")</h2>
+      <div style="width:65%; margin:auto;">
+        <iframe width="315" height="365" src="http://sehavniva.no/widget/Trondheim~9000021/" frameborder="0" allowfullscreen></iframe>
+      </div>
+  </div>
+
+</div>
+    
+}

@@ -1,0 +1,249 @@
+#
+# Tekst for nettsiden 'eklivalda.no'
+#
+# Denne filen inneholder nøkkel/verdi par som brukes på nettstedet for å støtte
+# flere språk. Linjer som starter med '#' er kommentarer og skal hjelpe deg med å
+# finne den relevante delen å endre. Generelt har hver linje formatet:
+#
+# side.seksjon.nøkkel=verdi
+#
+# Hvis du finner feil, unøyaktigheter eller ønsker å forbedre innholdet - slik fikser du det:
+#
+# 1. Identifiser verdiene du ønsker å endre:
+# - F.eks la oss si at du ønsker å endre undertittlen på nettstedet... 'title.byline'
+# 2. Endre verdien - det vil si den delen etter '=' tegnet:
+# - F.eks slik at linje nå er slik: 'title.byline=Laksehimmel'
+# 3. Send hele filen eller bare de linjene du vil endre til eiklivalda@smorgrav.org
+# 4. Du vil bli varslet om hvorvidt endringene blir brukt eller ikke (underlagt min subjektive vurdering).
+#
+# Hvis du vil legge til nye språk - så bare endrer du alle relevante verdier og sender filen til
+# eklivalda@smorgrav.org med en ekstra kommentar om hvilket språk oversettelsen er for.
+#
+# Du kan selvfølgelig også oversette kommentarer også
+#
+
+#
+# Tekst som vises på hver side
+#
+lang.en=Engelsk
+lang.de=Deutsch
+lang.no=Norsk
+
+title=Eklivalda
+title.byline=Storlaksvald i Orkla
+title.footer=+47 92 48 23 69 - Torbjørn Eikli Smørgrav
+
+#
+# Menyelementer på toppen av siden
+#
+menu.home=Hjem
+menu.zone1=Øvre
+menu.zone2=Midtre
+menu.zone3=Nedre
+menu.blog=Blog
+menu.orkla=Orkla
+menu.accommodation=Overnatting
+menu.about=Om
+
+#
+# Beskjeder - dynamisk om ikke lenge - men nå hardcodet
+#
+message.main=
+
+#
+# Tekst som brukes på flere sider
+#
+general.and=og
+general.booking.intro=<b>Forespørsler</b> om fiske eller overnatting kan rettes til:
+general.booking.email=torbjorn@smorgrav.org
+general.booking.name=Torbjørn Eikli Smørgrav
+general.booking.phone=+47 92 48 13 69
+
+general.caretaker.intro=<b>Vedlikehold</b> og daglig tilsyn gjøres av:
+general.caretaker.email=geir.eikli@loqal.no
+general.caretaker.name=Geir Eikli
+general.caretaker.phone=+47 97 59 36 33
+
+general.webmaster=<a href="mailto:torbjorn@smorgrav.org">webmaster</a>
+
+# Kart utsnitt
+general.map=Kart av valda
+general.map.byline=Prøv å klikke på punktene...
+
+# Bilder
+general.pictures=Bilder
+general.pictures.byline=Inntrykk fra valdet
+
+# Film seksjonen
+general.movie = Film
+general.movie.byline = En film fra valdet
+
+#
+# Bunntekst nederst på hver side
+#
+footer=Laget av Torbjørn Eikli Smørgrav eklivalda@smorgrav.org</a>
+footer.acknowledgement=...takk til Lars I. Pettersen, Ragnar, Geir og andre som har bidratt...</a>
+
+#
+# Tekst for hjemmesiden
+#
+home.welcome=Velkommen
+home.welcome.byline=Til noen av de beste valdene i Orkla
+home.welcome.body.10=Vi tilbyr <b>eksklusive fiske uten motfiske</b> på en ukentlig basis. Våre vald er
+home.welcome.body.20=Se vår velkommen-video:
+home.welcome.body.30=Det interaktive kartet til høyre har informasjon og bilder om grenser, avkjørsler og fasiliteter for de forskjellige valdene.
+home.welcome.body.40=Vi har flere muligheter for overnatting på eiendommene som er sammen om valdene. For mer se
+home.welcome.body.50=Og følg vår Orkla side med fangst-statistikken, vær og elve informasjon - alt i sanntid. Sjekk den her
+home.welcome.movieref=88755198
+
+
+home.map=Kart av fisket
+home.map.byline=Prøv å klikke på punktene...
+
+home.slideshow=Fiskelykken
+home.slideshow.byline=En lysbildefremvisning fra elvebredden
+
+#
+# Tekst på siden 'Øvre'
+#
+zone1.welcome=Øvre Ekli
+zone1.welcome.byline=Valdet kan egentlig ikke beskrives med ord. Det må oppleves!
+zone1.body.10=Øvre Ekli har en privat beliggenhet og tilbyr tosidig fiske i et langt høl som er kjent for å holde mye og stor fisk, \
+samt sine mange «stopp plasser» og «taking spots» som fisker bra under alle vannforhold.
+
+zone1.body.20=Valdet består av en lang innstrøm, en lang høl og et langt brekk.  \
+Innstrømmen fisker aller best på lav til middels vannstand hvor du kan vade ut til ryggen som går midt i elven og \
+fiske over flere giftige plasser hvor laksen stopper ved oppgang. \
+Innstrømmen fisker også bra på flomvannføring. Da står fisken inn mot land, \
+og du trenger ikke å vade. Der innstrømmen renner ut i hølen finner du kanskje det aller giftigste området på de fleste vannstander. \
+Prøv gjerne med synkeline i dette området.
+
+zone1.body.30=Det roligere området nedenfor holder mye fisk, og fisker bra på middels vannstand og oppover. \
+Også i den aller roligste delen av hølen står det fisk som tar flua. \
+Nedre By (Bua på den andre siden) hører også med til valdet og det er et vald som fisker spesielt bra på \
+vannstand mellom 80 til 110 kubikk. På nedsiden av Nedre By kommer vi til brekket som fisker bra fra begge sider.
+
+#
+# Tekst på siden 'Midtre Ekli'
+#
+zone2.welcome=Midtre Ekli
+zone2.welcome.byline=Et spennende vald som byr på variert og utfordrende fiske
+zone2.body.10=For fluefiskeren fiskes Midtre som regel best fra øra på andre siden av elva (motsatt side av båtplassen). \
+Det er en kraftig innløpsstrøm i hølen og det ligger en stor stein midt i “svingen” inn mot andre siden.
+
+zone2.body.20=På middels og lav vannstand er det mulig å vade seg til en slik posisjon at flua blir lagt på utsiden av steinen, \
+og hvis en får flua til å henge ørlite er det ofte mulig å komme i kontakt med laksen. Rundt hele "svingen“ er det forøvrig en kant som det er fint å fiske av.  \
+Selve hølen inneholder stor laks (ihvertfall ofte) og fiskes best med synkeline.
+
+zone2.body.30=For mark- og slukfiskeren er det spesielt bra fiske fra den siden av elva som båten vanligvis ligger på.
+
+#
+# Tekst på siden 'Nedre Ekli'
+#
+zone3.welcome=Nedre Ekli
+zone3.welcome.byline=Fluefiske vald med stor variasjon og mange fiskesteder
+zone3.body.10=Nedre Ekli er et meget bra fiskevald på et par hundre meter. \
+Valdet ligger ovenfor Kvåle og det er ikke motfiske (fiske på begge sider av elva). \
+Det ligger en steinrekke ute i elva hvor fisken stopper i sin ferd oppover elva.
+
+zone3.body.20=På vannstand under 90-95 kubikk fiskes valdet best fra den siden gapahuken ligger (fin nyoppført gapahuk).
+
+zone3.body.30=På vannstander fra 90 kubikk og oppover kan det være bra fiske fra andre siden også.
+
+#
+# Tekst på siden "overnatting"
+#
+accommodation.damman=Eikli gård
+accommodation.damman.byline=Et godt innredet Stabbur med plass til 10
+accommodation.damman.description=Stabburet ble renovert i 1998 og har blitt brukt hovedsakling som utleie for fiskere i \
+sommermåndene. Store deler av 1. etasje var tidligere brukt til Systue for Stabbursøm, men står nå ubrukt. \
+Stabburet har også huset helårs beboere og er velegnet for et lengre opphold.
+accommodation.damman.bullet1=Bad med dusj, toalett og vaskemaskin
+accommodation.damman.bullet2=Kjøkkenkrok med stekeovn, kjøleskap, mikro, oppvaskmaskin og fryser
+accommodation.damman.bullet3=Stue med rikstv/parabol, sofa gruppe, garderobe og et par stoler
+accommodation.damman.bullet4=Sovealkove med plass til 3 personer
+accommodation.damman.bullet5=5 enkeltsenger og en dobbeltseng fordelt på 2 rom i 3. etasje
+accommodation.damman.pictures=Bilder fra Eikli Gård
+
+accommodation.steinshaugen=Steinshaugen
+accommodation.steinshaugen.byline=To hus med utsøkt beliggenhet
+accommodation.steinshaugen.description=TBD
+accommodation.steinshaugen.pictures=Bilder fra Steinshaugen
+
+# Innhold i 'steinshaugen' tabell
+accommodation.steinshaugen.beds=
+accommodation.steinshaugen.kitchen=
+accommodation.steinshaugen.livingroom=
+accommodation.steinshaugen.tv=
+accommodation.steinshaugen.wifi=
+accommodation.steinshaugen.other=
+
+accommodation.gjerde=Gjerde
+accommodation.gjerde.byline=Stabbur med enkel standard
+accommodation.gjerde.description=TBD
+accommodation.gjerde.pictures=Bilder fra Gjerde
+
+# Kategori navn
+accommodation.table.beds=Senger
+accommodation.table.kitchen=Kjøkken
+accommodation.table.livingroom=Stue
+accommodation.table.tv=TV
+accommodation.table.wifi=Internet
+accommodation.table.other=Annen
+
+#
+# Tekst på siden 'Blog'
+#
+blog.title=Blog
+blog.byline=Om elva, valda og livet rundt
+
+#
+# Tekst på siden 'Orkla'
+#
+orkla.stats=Sanntids info fra Orkla
+
+orkla.events=Sanntids log
+orkla.events.byline=Kontinuerlig log over hendelser vedr Orkla
+
+orkla.resources=Se også
+orkla.resources.byline=Andre nettsider om Orkla og fiske
+
+orkla.weather=Værmelding
+orkla.weather.byline=Fra yr.no
+
+orkla.tide=Tidevannstand
+orkla.tide.byline=Nærmeste målestasjon til Orkanger er Trondheim havn
+
+#
+# Tekst på siden 'om'
+#
+#
+# Text on the page 'about'
+#
+about.stats=Statistikk
+
+about.lang=Oversettelser og Språk
+about.lang.byline=Hjelp oss med oversettelser og språket
+about.lang.intro=Det meste av tekst på denne nettsiden taes fra filer som du kan laste ned,\
+                 endre og sende tilake til oss for slik å lage en enda bedre side.\
+                 Hovedspråket er norsk, så det kan hende de norske sidene ligger litt i forkant av de andre språkene,\
+                 så sjekk alltid med den norske versjonen hvis du jobber med et annet språk.
+about.lang.howto=Slik går du frem:
+about.lang.howto.1=Last ned språkfila ved å trykke på en av linkene under
+about.lang.howto.2=Følg instruksjoene i fila
+about.lang.howto.3=Send den endra fila til
+about.lang.available=Tilgjengelige språk - ditt nåværende språk er:
+about.lang.download=Last ned språk fil for
+
+#
+# Tekst på kartet modulen
+#
+map.boarder=Grense til
+map.access=Avkjørsel til
+map.cabin=Hytte
+map.shelter=Gapahuk
+
+#
+# Feilmeldinger
+#
+error.javascript=Vennligst aktiver Javascript for å kunne se denne bildevisningen

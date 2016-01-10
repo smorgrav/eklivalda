@@ -1,0 +1,245 @@
+#
+# Text used for eklivalda.no
+#
+# This file contains key/value pairs to support multiple languages.
+# Lines starting with '#' are comments and should help you
+# find the relevant section to change. In general each line has the format:
+#
+# page.section.key=value
+#
+# If you find errors, inaccuracies or want to improve the content - this is how you do it:
+#
+# 1. Identify the key values that you want to change
+#    - e.g let's say that you want to change the websites byline 'title.byline'
+# 2. Change the value - i.e the part after the '=' sign
+#    - e.g so that the resulting like reads: 'title.byline=Salmon heaven'
+# 3. Email the entire file or just the lines you want to change to eiklivalda@smorgrav.org
+# 4. You will be notified if the changes are being applied or not (subject to my scrutiny).
+#
+# If you want to add a new language - then just change all relevant key value lines and send the file to
+# eklivalda@smorgrav.org with an extra note on which language the translation is all about.
+#
+# You may also of course translate comments
+#
+
+#
+# Text appearing on every page
+#
+lang.en=English
+lang.de=Deutsch
+lang.no=Norsk
+
+title=Eklivalda
+title.byline=The big salmon fishery in Orkla
+
+#
+# Menu items on the top of the page
+#
+menu.home=Home
+menu.zone1=Upper beat
+menu.zone2=Middle beat
+menu.zone3=Lower beat
+menu.orkla=Orkla
+menu.blog=Blog
+menu.accommodation=Accommodation
+menu.about=About
+
+#
+# General text used in multiple pages
+#
+general.and=and
+general.booking.intro=<b>Inquiries</b> for fishing or accommodation should be directed to:
+general.caretaker.intro=<b>Maintenance</b> and day to day supervision is done by:
+
+# General map section
+general.map=Map of the beat
+general.map.byline=Try clicking on the dots...
+
+# General picture section
+general.pictures=Pictures
+general.pictures.byline=Impressions from the beat
+
+# General movie section
+general.movie=Motion picture
+general.movie.byline=A movie from the beat
+
+#
+# Footer at the bottom of every page
+#
+footer=Made by Torbjørn Eikli Smørgrav torbjorn@smorgrav.org</a>
+footer.acknowledgement=...a special thanks to Lars I. Pettersen, Ragnar, Geir and other contributors...</a>
+
+#
+# Text for the home page
+#
+home.welcome=Welcome
+home.welcome.byline=To one of the best beats in Orkla
+home.welcome.body.10=We are offering <b>exclusive double bank fishing</b> on a weekly basis. Our beats are the
+home.welcome.body.20=Check out our welcome video:
+home.welcome.body.30=The interactive map on the right has information and pictures about boarders, access and facilities of the different beats.
+home.welcome.body.40=We have multiple options for accommodation on the estates that are a part of the beats. For more see
+home.welcome.body.50=And follow our Orkla page with catch statistics, weather and river information - all live and dandy. Check it our here
+home.welcome.movieref=88771364
+
+home.map=Map of the beats
+
+home.slideshow=Fishing luck
+home.slideshow.byline=A slideshow from the river bank
+
+#
+# Text on the page 'Upper Beat'
+#
+zone1.welcome=Upper beat
+zone1.welcome.byline=This beat is hard to describe with words. You have to experience it!
+zone1.body.10=Upper Ekli has a private location and offers double bank fishing in a long pool which is known to hold a lot and big fish \
+              as well as its many "stop and taking spots" that fishes well in all water conditions.
+
+zone1.body.20=The beat consists of a long inflow, one long pool and a long break. \
+The inflow fishes at its best at low to medium water levels where you can wade out to the ridge that goes in the middle of the river and \
+fishing over several hot places where the salmon stops on its way upstream. \
+The inflow fishes well on flood flow too as fish moves closer the bank, \
+and you do not have to wade. Where the input current flows into the pool you will find perhaps the hottest area at most water levels. \
+Try your sinking line in this area.
+
+zone1.body.30=The quieter area below holds a lot of fish, and fish well at medium water level and above. \
+Also in the very quietest part of the pool we do find fish that takes the fly. \
+Nedre By (the shelter on the other side) does also belongs to the beat and this fish particularly good at \
+water levels between 80 to 110 m3. On the lower side of Nedre By, we have boulders which fishes well from both sides.
+
+#
+# Text on the page 'Middle Beat'
+#
+zone2.welcome=Middle beat
+zone2.welcome.byline=An exciting beat which offers a varied and challenging fishing
+zone2.body.10=For fly fishing this beat usually is best from the bank on the other side of the river (opposite the pier). \
+              It has a powerful inflow to the pool and some large rock in the middle of "bend" towards the other side.
+zone2.body.20=At medium and low water it is possible to wade into a position where the fly is placed on the outside of the stone, \
+and if one gets the fly to hang a bit,it is often possible to get in touch with the salmon. Around the whole "bend" there is an edge that it's nice to fish. \
+The pool contains large salmon (at least quite often) and fished best with sinking line.
+zone2.body.30=For worms and lures the beat is especially good from the same bank of the river as the boat usually resides.
+
+#
+# Text on the page 'Lower Beat'
+#
+zone3.welcome=Lower beat
+zone3.welcome.byline=Fly fishing beat with a great variety and many fishing spots
+zone3.body.10=Nedre Ekli is a very good fishing beat that stretches out a few hundred meters. \
+The beat is double bank and exclusive located above Kvåle. \
+There are a number of boulders in the river where fish stop in their journey upstream.
+zone3.body.20=At water levels below 90-95 m3, the beat is best fished from the bank of of the bivouac (a nice newly built shelter).
+zone3.body.30=At water levels above 90 m3, fishing can be good from the other side too.
+
+#
+# Text on the page 'Accommodation'
+#
+accommodation.damman=Eikli gård
+accommodation.damman.byline=Some byline here
+accommodation.damman.description=Some description here
+accommodation.damman.pictures=Pictures from Eikli Gård
+
+# Content on the 'damman' table
+accommodation.damman.beds=9
+accommodation.damman.kitchen=
+accommodation.damman.livingroom=
+accommodation.damman.tv=Free TV and Free Satelite TV
+accommodation.damman.wifi=Yes, albeit not with fiber speeds
+accommodation.damman.other=
+
+accommodation.steinshaugen=Steinshaugen
+accommodation.steinshaugen.byline=Some byline here
+accommodation.steinshaugen.description=Some description here
+accommodation.steinshaugen.pictures=Pictures from Steinshaugen
+
+# Content in the 'steinshaugen' table
+accommodation.steinshaugen.beds=
+accommodation.steinshaugen.kitchen=
+accommodation.steinshaugen.livingroom=
+accommodation.steinshaugen.tv=
+accommodation.steinshaugen.wifi=
+accommodation.steinshaugen.other=
+
+accommodation.gjerde=Gjerde
+accommodation.gjerde.byline=Some byline here
+accommodation.gjerde.description=Some description here
+accommodation.gjerde.pictures=Pictures from Gjerde
+
+# Content in the 'gjerde' table
+accommodation.gjerde.beds=
+accommodation.gjerde.kitchen=
+accommodation.gjerde.livingroom=
+accommodation.gjerde.tv=
+accommodation.gjerde.wifi=
+accommodation.gjerde.other=
+
+accommodation.table.beds=Beds
+accommodation.table.kitchen=Kitchen
+accommodation.table.livingroom=Livingroom
+accommodation.table.tv=TV
+accommodation.table.wifi=Wifi
+accommodation.table.other=Other
+
+#
+# Text on the page 'Blog'
+# Note on the blog: this is inlined from tumblr and does not have the language feature
+# as the rest of this site.
+#
+blog.title=Blog
+blog.byline=About the river, the beats and life around it
+
+
+#
+# Text on the page 'Orkla'
+#
+orkla.stats=Live stats from Orkla
+
+orkla.flickrfeed=Flickr feed
+orkla.flickrfeed.byline=Use #orkla #eklivalda and/or #orklacatch
+
+orkla.resources=Resources
+orkla.resources.byline=Other places with information about Orkla
+
+orkla.events=Live events
+orkla.events.byline=Incoming data deemed relevant
+
+orkla.weather=The Weather
+orkla.weather.byline=Courtesy of yr.no
+
+orkla.tide=The Tide
+orkla.tide.byline=At the closet tidal station to Orkanger
+
+#
+# Text on the page 'about'
+#
+about.stats=Statistics
+
+about.lang=Translations and Content
+about.lang.byline=Help us improve or even add new languages
+about.lang.intro= Most of the text on this web site are read from a text file which you can download,\
+                 alter and send back in order to improve the site.\
+                 The main language is English which is the one to use as a reference for the other languages,\
+                 thus do always check the english message file for potential changes that has yet to be propagated to the other languages.
+about.lang.howto=This is how you do it:
+about.lang.howto.1=Download a message file by clicking on the links below
+about.lang.howto.2=Follow the instructions in the file
+about.lang.howto.3=Send the file by email to the
+about.lang.available=Available languages - your current language is
+about.lang.download=Download file for
+
+about.sharing=Sharing
+about.sharing.byline=Features from this web page can be reused in other pages
+about.sharing.intro=Components from this website like the river statistics can easily be reused to accommodate other rivers,\
+                    new data sources or just to be embedded elsewhere. Instructions TBD.
+
+#
+# Text on the map module
+#
+map.boarder=Boarder for
+map.access=Access to
+map.cabin=Cabin
+map.shelter=Shelter
+
+#
+# Error messages
+#
+error.javascript=Please enable Javascript to view this slideshow
+
